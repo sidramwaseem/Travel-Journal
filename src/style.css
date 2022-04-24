@@ -1,0 +1,85 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Inter', sans-serif;
+}
+/*NAVBAR SECTION*/
+.navbar{
+  height: 55px;
+  display:flex;
+  flex-direction: row;
+  background-color: #F55A5A;
+  padding: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar>h1{
+  font-weight:500;
+  color: #fff;
+  margin-left: 10px;
+  font-size: 14.46px;
+}
+
+/*Card Component*/
+
+.card{
+  display:flex;
+  flex-direction: row;
+  max-width: 100%;
+  margin-top: 50px;
+  justify-items: left;
+  margin-left: 50px;
+  margin-right: 20px;
+
+}
+
+.card--location{
+  margin-top: 12px;
+  margin-bottom: 10px;
+}
+
+.location-img{
+  margin-right: 50px;
+  width: 125px;
+}
+
+.location-icon{
+  width: 7px;
+}
+
+.country-name{
+  text-transform: uppercase;
+  font-weight:400;
+  font-size: 10.24px;
+  letter-spacing: 17%;
+  margin-right:12px;
+  margin-left: 4px;
+
+}
+.googleMap-link{
+  font-weight: 400;
+  font-size:10.24px;
+  color: #918E9B;
+}
+.location-name{
+  font-size: 25px;
+  font-weight: 700;
+  line-height: 30.26px;
+  color: #2B283A;
+  margin-bottom: 7px;
+}
+
+.startDate, .endDate{
+  font-weight: 700;
+  font-size:10.24px;
+  line-height: 12.39px;
+}
+
+.locaton-description{
+  font-weight: 400;
+  font-size: 10.24px;
+  line-height:15.36px;
+  max-width: 326px;
+}
